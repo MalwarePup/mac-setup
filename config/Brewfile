@@ -1,0 +1,56 @@
+cask_args require_sha: true
+
+# 'brew install'
+brew "bash"
+brew "eza"
+brew "gcc"
+brew "git"
+brew "llvm"
+brew "make"
+brew "mas"
+brew "moreutils"
+brew "node@16"
+brew "pkg-config"
+brew "python"
+brew "readline"
+brew "stow"
+brew "trash"
+brew "tree"
+brew "vim"
+brew "wget"
+brew "yarn"
+
+# 'brew install --cask'
+cask "1password"
+cask "1password-cli"
+cask "aldente"
+cask "alt-tab"
+cask "appcleaner"
+cask "arc"
+cask "carbon-copy-cloner"
+cask "cleanshot"
+cask "clion"
+cask "coconutbattery"
+cask "discord"
+cask "firefox"
+cask "hiddenbar"
+cask "iterm2"
+cask "obs"
+cask "obsidian"
+cask "orbstack"
+cask "raycast"
+cask "rustdesk"
+cask "signal"
+cask "slack"
+cask "spotify"
+cask "the-unarchiver"
+cask "visual-studio-code"
+cask "vlc"
+cask "whatsapp"
+cask "zed"
+
+# 'mas install'
+mas "Parcel", id: 639968404
+mas "Microsoft Excel", id: 462058435
+mas "Paste", id: 967805235
+mas "Microsoft Word", id: 462054704
